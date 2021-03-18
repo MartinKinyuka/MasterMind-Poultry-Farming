@@ -4,7 +4,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(./images/tim-cooper-DSgjjsjnvQQ-unsplash.jpg);
+    background-image: url(tim-cooper-DSgjjsjnvQQ-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 9cm;
@@ -35,17 +35,18 @@
 
 #overview {
     border: 1cm;
-    max-width: 12cm;
-    margin-left: 33cm;
-    text-align: right;
-    margin-top: -2cm;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 100px;
     color: honeydew;
     font-size: 35px;
 }
 
 
 #welcimg {
-    background-image: url(./images/daniel-tuttle--IHUF0jIey4-unsplash.jpg);
+    background-image: url(daniel-tuttle--IHUF0jIey4-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -89,7 +90,7 @@
 }
 
 #gal1 {
-    background-image: url(./images/jonathan-cooper-XRKjBUWaj-A-unsplash.jpg);
+    background-image: url(jonathan-cooper-XRKjBUWaj-A-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -103,7 +104,7 @@
 }
 
 #gal2 {
-    background-image: url(./images/william-moreland-auijD19Byq8-unsplash.jpg);
+    background-image: url(william-moreland-auijD19Byq8-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -120,7 +121,7 @@
 
 
 #gal3 {
-    background-image: url(./images/jed-owen-aIn2wl7Lixc-unsplash.jpg);
+    background-image: url(jed-owen-aIn2wl7Lixc-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -146,25 +147,36 @@
 }
 
 
-ul>li {
-    display: inline-flex;
-    text-align: justify;
-}
-
-#bar>ul>li {
-    margin-right: 1cm;
-}
-
-#bar a:hover {
-    background-color: darkviolet;
-    color: rgb(26, 26, 211);
-    transition: 5sec;
-}
-
-#homep a:hover {
-    background-color: rgb(150, 150, 150);
-    color: rgb(32, 30, 30);
-}
+.header{
+    overflow: hidden;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 250px;
+  }
+  .header a{
+    float: left;
+    color: #222629;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .header a.logo{
+    font-size: x-large;
+    font-family: Georgia;
+    font-weight: bold;
+  }
+  .header a:hover{
+    background-color: lightgray;
+  }
+  .header a.active{
+    background-color: lightseagreen;
+    color:white;
+  }
+  .headerright{
+    float: right;
+  }
 
 .footer{
     overflow: hidden;
