@@ -4,7 +4,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(./images/hoover-tung-6lQTFv0VhXk-unsplash.jpg);
+    background-image: url(hoover-tung-6lQTFv0VhXk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 8cm;
@@ -14,16 +14,18 @@
     margin-top: 2cm;
 }
 #aboutp{
-    border: 1px;
-    max-width: 6cm;
-    font-size: 50px;
-    margin-top: -4cm;
-    margin-left: 4cm;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: lightseagreen;
 }
 
 
 #vision {
-    background-image: url(./images/stefano-zocca-TCY-24aPvPE-unsplash.jpg);
+    background-image: url(stefano-zocca-TCY-24aPvPE-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -70,7 +72,7 @@
 }
 
 #pic {
-    background-image: url(./images/dr-josiah-sarpong-yhSzArW8ubY-unsplash.jpg);
+    background-image: url(dr-josiah-sarpong-yhSzArW8ubY-unsplash.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -84,6 +86,13 @@
 #hd {
     text-align: center;
     margin-top: 2cm;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: lightseagreen;
 }
 
 #bar {
@@ -95,22 +104,35 @@
     margin-top: -8cm;
     font-size: 27px;
 }
+.header{
+    overflow: hidden;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+  }
+  .header a{
+    float: left;
+    color: #222629;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .header a.logo{
+    font-size: x-large;
+    font-family: Georgia;
+    font-weight: bold;
+  }
+  .header a:hover{
+    background-color: lightgray;
+  }
+  .header a.active{
+    background-color: lightseagreen;
+    color:white;
+  }
+  .headerright{
+    float: right;
+  }
 
-ul>li {
-    display: inline-flex;
-    text-align: justify;
-}
-
-#bar>ul>li {
-    margin-right: 2cm;
-}
-
-
-#bar a:hover {
-    background-color: blueviolet;
-    color: blue;
-    transition: 3sec;
-}
 
 #master {
     margin-top: 1cm;
