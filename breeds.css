@@ -90,3 +90,35 @@ img{
 h2{
     align-items: center;
 }
+
+.footer{
+    overflow: hidden;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    clear: both;
+    position: relative;
+    top:200px;
+  }
+  .footer a{
+    float: left;
+    color: #222629;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .footer a.logo{
+    font-size: x-large;
+    font-family: Georgia;
+    font-weight: bold;
+  }
+  .footer a:hover{
+    background-color: lightgray;
+  }
+  .footer a.active{
+    background-color: lightseagreen;
+    color:white;
+  }
+  .footerright{
+    float: right;
+  }
