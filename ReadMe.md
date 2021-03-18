@@ -21,6 +21,6 @@ You will be able to clone in your own local folder.
 1. CSS 
 
 ### Live site 
-view[LIVE]()
+view[LIVE](https://martinkinyuka.github.io/MasterMind-Poultry-Farming/)
 ### Licence 
 This project is undetr the [MIT](LICENCE) Licence 
