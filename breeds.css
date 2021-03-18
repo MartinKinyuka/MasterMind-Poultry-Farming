@@ -1,7 +1,6 @@
 body{
-    background-color: #222629;
+    background-color:seashell;
 }
-
 .header{
     overflow: hidden;
     padding: 20px 20px;
@@ -70,6 +69,16 @@ img{
     height: 200px;
     border-radius: 50px;
 }
+.container{
+    border-radius: 10px;
+}
+.container > div{
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .container1{
     
     border-radius: 10px;
@@ -88,6 +97,9 @@ img{
 .container2 > div{
     width: 400px;
     height: 200px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2{
     align-items: center;
